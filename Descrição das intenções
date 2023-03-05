@@ -1,41 +1,41 @@
 {"intents":[
-    { "tag": "saudacao", /*cumprimentar o chatbot*/
-      "patterns":["Ola","Opa","Oi", "tudo bem", "oie"],
-      "responses": ["Oi","Olá"]
-    },
-    { "tag": "despedida", /*realizar a despedida do chatbot*/
-      "patterns":["valeu","tchau","Obrigado","tks"],
-      "responses": ["Até breve","Falou"]
-    },
-  
-    { "tag": "objetivo_tcc",/*explicar o objetivo do tcc*/
-      "patterns":["Qual o objetivo do tcc?","Qual o objetivo do trabalho?", "O que tem que fazer no tcc?", "Como faz o tcc?"],
-      "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes emdesenvolver uma solução para uma questão queenvolva recursos computacionais e que utilize osconhecimentos acumulados durante o curso degraduação. A solução proposta deve ter como base ométodo científico"]
-    },
-    { "tag": "entrega_tcc",/*mostrar como funciona a entrega do tcc*/
-      "patterns":["Como funciona a entrega?","Funcionamento da entrega do tcc?", "entrega do tcc", "o que tem que ter na entrega do tcc?"],
-      "responses": ["Espera-se como resultado final do TCC,uma monografia e um programa ou artefato desenvolvido pelos alunos."]
-    },
-    { "tag": "monografia",/*explicar o que é uma monografia*/
-      "patterns":["O que é monografia?","monografia"],
-      "responses": ["A monografia é um tipo de TCC com um viés mais científico e trata de um tema em específico."]
-    },
-    { "tag": "grupo",/*mostrar como é formado um grupo de tcc*/
-      "patterns":["Como é formado um grupo de tcc?","grupo do tcc", "como é o grupo do tcc?", "o que tem um grupo do tcc?"],
-      "responses": ["O trabalho de conclusão de curso é desenvolvido em grupos de alunos e todo grupo possui um orientador."]
-    },
-    { "tag": "orientador",/*explicar o que um orientador faz*/
-      "patterns":["O que faz um orientador", "orientador do tcc", "qual a função do orientador?", "orientador"],
-      "responses": ["Os orientadores aconselham alterações ou aperfeiçoamentos na delimitação do escopo ou da metodologia a ser empregada."]
-    },
-    { "tag": "Professor",/*responder o que o professor de tcc faz*/
-      "patterns":["O que faz o professor", "professor do tcc", "qual a função do professor?", "professor"],
-      "responses": ["O professor do tcc apresenta semanalmente tópicos relevantes sobre metodologia científica e organização do trabalho,acompanha a evolução de cada grupo, auxiliando os alunos na condução das atividades"]
-    },
-    { "tag": "banca_avaliação",/*responder quem irá realizar a avaliação do tcc*/
-      "patterns":["quem irá avaliar o tcc", "quem irá avaliar o projeto", "quem irá avaliar"],
-      "responses": ["O grupo será avaliado por uma banca de professores."]
-    }
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem", "oie"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
 
-  ]
+  { "tag": "objetivo_tcc",/*explicar o objetivo do tcc*/
+    "patterns":["Qual o objetivo do tcc?","Qual o objetivo do trabalho?", "O que tem que fazer no tcc?", "Como faz o tcc?"],
+    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes emdesenvolver uma solução para uma questão queenvolva recursos computacionais e que utilize osconhecimentos acumulados durante o curso degraduação. A solução proposta deve ter como base ométodo científico"]
+  },
+  { "tag": "entrega_tcc",/*mostrar como funciona a entrega do tcc*/
+    "patterns":["Como funciona a entrega?","Funcionamento da entrega do tcc?", "entrega do tcc", "o que tem que ter na entrega do tcc?"],
+    "responses": ["Espera-se como resultado final do TCC,uma monografia e um programa ou artefato desenvolvido pelos alunos."]
+  },
+  { "tag": "monografia",/*explicar o que é uma monografia*/
+    "patterns":["O que é monografia?","monografia"],
+    "responses": ["A monografia é um tipo de TCC com um viés mais científico e trata de um tema em específico."]
+  },
+  { "tag": "grupo",/*mostrar como é formado um grupo de tcc*/
+    "patterns":["Como é formado um grupo de tcc?","grupo do tcc", "como é o grupo do tcc?", "o que tem um grupo do tcc?"],
+    "responses": ["O trabalho de conclusão de curso é desenvolvido em grupos de alunos e todo grupo possui um orientador."]
+  },
+  { "tag": "orientador",/*explicar o que um orientador faz*/
+    "patterns":["O que faz um orientador", "orientador do tcc", "qual a função do orientador?", "orientador"],
+    "responses": ["Os orientadores aconselham alterações ou aperfeiçoamentos na delimitação do escopo ou da metodologia a ser empregada."]
+  },
+  { "tag": "Professor",/*responder o que o professor de tcc faz*/
+    "patterns":["O que faz o professor", "professor do tcc", "qual a função do professor?", "professor"],
+    "responses": ["O professor do tcc apresenta semanalmente tópicos relevantes sobre metodologia científica e organização do trabalho,acompanha a evolução de cada grupo, auxiliando os alunos na condução das atividades"]
+  },
+  { "tag": "banca_avaliação",/*responder quem irá realizar a avaliação do tcc*/
+    "patterns":["quem irá avaliar o tcc", "quem irá avaliar o projeto", "quem irá avaliar"],
+    "responses": ["O grupo será avaliado por uma banca de professores."]
   }
+
+]
+}
